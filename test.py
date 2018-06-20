@@ -23,10 +23,11 @@ class NeuralNetwork():
     # It indicates how confident we are about the existing weight.
     def __sigmoid_derivative(self, x):
         return x * (1 - x)
-
+				
     # We train the neural network through a process of trial and error.
     # Adjusting the synaptic weights each time.
-    def train(self, training_set_inputs, training_set_outputs, number_of_training_iterations):
+    def train(self, training_set_inputs, training_set_outputs,
+              number_of_training_iterations):
         for iteration in xrange(number_of_training_iterations):
             # Pass the training set through our neural network (a single neuron).
             output = self.think(training_set_inputs)
@@ -38,7 +39,8 @@ class NeuralNetwork():
             # Multiply the error by the input and again by the gradient of the Sigmoid curve.
             # This means less confident weights are adjusted more.
             # This means inputs, which are zero, do not cause changes to the weights.
-            adjustment = dot(training_set_inputs.T, error * self.__sigmoid_derivative(output))
+            adjustment = dot(training_set_inputs.T,
+                             error * self.__sigmoid_derivative(output))
 
             # Adjust the weights.
             self.synaptic_weights += adjustment
