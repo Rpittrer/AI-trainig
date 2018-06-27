@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cv.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
                 <marker date="1530015294351" expanded="true" signature="170:350" ph="..." />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="more.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="more.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/more.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -38,20 +38,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hands.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hands.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -122,7 +108,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI_TRAINING" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -408,16 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/more.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -431,9 +407,6 @@
           <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hands.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
@@ -455,10 +428,23 @@
     <entry file="file://$PROJECT_DIR$/cv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
             <marker date="1530015294351" expanded="true" signature="170:350" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hands.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
